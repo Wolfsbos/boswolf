@@ -10,13 +10,22 @@
         100% {background-color: rgb(255,255,255)}
       }
       @keyframes why{
-        0% {transition: rotateY(0deg);}
-        100% {transition: rotateY(360deg);}
+        0% {transform: rotateY(0deg);}
+        100% {transform: rotateY(360deg);}
       }
       body{
         animation: cunt 2ms infinite;
       }
+      img.rotate {
+        animation: why 5s infinite;
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
     </style>
+    <img src='dog.jpg">
     <p style="font-size: 40px; margin-left: 50%; margin-top: 50%; animation: why 5s infinite;">Homotastic Fantastic</p>
   </body>
 </html>
