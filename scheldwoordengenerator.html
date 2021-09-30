@@ -1,0 +1,126 @@
+<html><head>
+<title>Sheldwoordengenerator</title>
+</head>
+<body style="
+background-color: lightblue;
+padding: 0;
+margin: 0;
+">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+</style>
+<section style="
+width: 50vw;
+height: 75vh;
+padding-left: 25vw;
+padding-right: 25vw;
+padding-top: 25vh;
+position: absolute;
+margin: 0;
+align-content: center;
+"><p id="generated" style="
+position: relative;
+background-color: white;
+border: solid 10px tomato;
+padding: 25px;
+border-radius: 25px;
+margin: 0;
+top: 0;
+left: 0;
+box-shadow: 10px 10px 10px rgba(173,173,173,0.5);
+font-size: 3em;
+text-align: center;
+font-family: 'Patrick Hand', cursive;
+">lelijke Afrikaan</p><a onclick="generate()"><section style="position: relative;background-color: tomato;border: solid 10px tomato;padding: 0px;border-radius: 25px;margin: 0;top: 0;left: 0;margin-top: 10px;margin-left: 38.5%;box-shadow: 10px 10px 10px rgb(173 173 173 / 50%);font-size: 2em;text-align: center;font-family: 'Patrick Hand', cursive;width: 5em;">Klik me!</section></a></section>
+
+<script>
+
+var woorden = [
+"penislikker",
+"Turk",
+"Marokkaan",
+"Afrikaan",
+"kindje",
+"immigrant",
+"neger",
+"kut",
+"idioot",
+"debiel",
+"azielzoeker",
+"apekop",
+"aap",
+"aardappelhoer",
+"banaan",
+"likker",
+"garnaal",
+"worm",
+"hoer",
+"gebakkie",
+"friekandelhoofd",
+"flikkerneuker",
+"neuker",
+"augurk",
+"lul",
+"kuttekind",
+"baarmoederbuikwandschimmel",
+"discokip",
+"babypoedersnuiver",
+"snuiver",
+"slet",
+"flikker",
+"eikel",
+"egoist",
+"eiermix-imitatie",
+"tiet",
+"nerd",
+"fietsendief",
+"lullegezicht",
+"fietspompenlullegezicht",
+"flamingo",
+"flapdrol",
+"gadoodengeefmijbrood",
+"pijper"
+]
+
+var bijv = [
+"verdomde",
+"Turkse",
+"Marokkaanse ",
+"Afrikaanse",
+"kanker",
+"kut",
+"illegale",
+"zwarte",
+"homo",
+"gele",
+"Chinese",
+"gekke",
+"idiote",
+"kutte",
+"arme",
+"debiele",
+"lelijke",
+"avocado",
+"achterlijke",
+"afgebakken",
+"anus",
+"augurk",
+"baarmoederscheefgepoepte",
+"baarmoeder",
+"carnavals",
+"eikel",
+"egocentrische",
+"Tweede Kamer",
+"hersenloze",
+"hamster"
+]
+
+function generate(){
+document.getElementById('generated').innerHTML = bijv[Math.floor(Math.random()*bijv.length)]+" "+woorden[Math.floor(Math.random()*woorden.length)];
+}
+
+
+generate()
+
+</script>
+</body></html>
